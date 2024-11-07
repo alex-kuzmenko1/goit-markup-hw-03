@@ -9,10 +9,10 @@ body {
   letter-spacing: 0.02em;
 }
 
-.container{
+.container {
   max-width: 1158px;
-   padding: 0 15px;
-   margin: 0 auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 ul,
@@ -21,48 +21,58 @@ ol {
   margin: 0;
   padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
-.page-header{
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-nav{
+.header-nav {
   display: flex;
   text-align: center;
 }
-.nav-list{
+.nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
- 
 }
 
-.nav-link{
+.nav-link {
   display: block;
   padding: 24px 0;
 }
-.contacts-list{
+.contacts-list {
   display: flex;
   align-items: center;
   gap: 40px;
-  
+}
+.contacts-item {
+  display: flex;
+  gap: 40px;
 }
 
-.contacts-link{
+.contacts-link {
   display: block;
   padding: 24px 0;
-  
- 
 }
 
-.container head-container{
+.container head-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
   display: flex;
   align-items: center;
 }
 
-.header-logo{
+.header-logo {
   padding: 24px 0;
   margin-right: 76px;
 }
@@ -96,7 +106,6 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
-
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -160,11 +169,11 @@ h3,
 h4 {
   font-weight: 500;
   font-size: 20px;
-   line-height: 1.2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.features-heading{
+.features-heading {
   line-height: 1.2;
 }
 .our-team {
@@ -180,9 +189,8 @@ h4 {
 
 .team-list {
   background-color: #ffffff;
- 
 }
-.team-heading{
+.team-heading {
   line-height: 1.2;
 }
 
@@ -228,7 +236,6 @@ h4 {
   letter-spacing: 0.02em;
 }
 
-
-.img{
+.img {
   display: block;
 }
