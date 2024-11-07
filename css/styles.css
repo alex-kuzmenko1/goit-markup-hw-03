@@ -175,6 +175,7 @@ display: flex;
 }
 
 h2 {
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -201,7 +202,7 @@ h4 {
   display: flex;
   gap: 24px;
 }
-.features-heading {
+.features-heading.visually-hidden{
   line-height: 1.2;
   margin-bottom: 8px;
 }
