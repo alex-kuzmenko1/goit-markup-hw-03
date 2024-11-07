@@ -116,7 +116,7 @@ a {
   margin-left: auto;
 }
 
-.contacts-list{
+.contacts-item{
   display: flex;
   gap: 40px
 }
