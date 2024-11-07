@@ -8,6 +8,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.img {
+  display: block;
+}
+
 /* header */
 .container {
   max-width: 1158px;
@@ -239,9 +244,12 @@ gap: 24px;
 .team-p {
   font-size: 16px;
   text-align: center;
-  
-}
 
+}
+/* portfolio */
+.porfolio{
+  padding-top: 120px; padding-bottom: 120px;
+}
 .portfolio-heading {
   font-size: 36px;
   line-height: 1.11;
@@ -249,6 +257,17 @@ gap: 24px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px; 
+  row-gap: 48px;
+}
+.portfolio-items{
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-h {
@@ -257,8 +276,16 @@ gap: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
+.portfolio-div{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+
+}
+/* footer */
 .page-footer {
   background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
@@ -268,18 +295,19 @@ gap: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 100px 0
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-p {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px
 }
 
-.img {
-  display: block;
-}
