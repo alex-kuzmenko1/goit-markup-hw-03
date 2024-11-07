@@ -68,7 +68,7 @@ p {
   padding: 24px 0;
 }
 
-.container head-container {
+.container head-container{
   display: flex;
   align-items: center;
 }
@@ -115,6 +115,11 @@ a {
   font-style: normal;
   margin-left: auto;
 }
+
+.contacts-list{
+  display: flex;
+  gap: 40px
+}
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -146,6 +151,7 @@ display: flex;
   color: #fff;
   max-width: 496px;
   margin-bottom: 48px;
+  
   
 }
 
@@ -202,7 +208,7 @@ h4 {
   display: flex;
   gap: 24px;
 }
-.features-heading.visually-hidden{
+.features-heading .visually-hidden{
   line-height: 1.2;
   margin-bottom: 8px;
 }
