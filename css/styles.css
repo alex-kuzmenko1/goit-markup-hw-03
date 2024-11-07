@@ -184,6 +184,7 @@ h2 {
 
 h3,
 h4 {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -297,11 +298,13 @@ gap: 24px;
   color: #4d5ae5;
   padding: 100px 0
 }
+.logo footer-logo{
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-p {
