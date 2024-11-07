@@ -140,6 +140,7 @@ display: flex;
   letter-spacing: 0.02em;
   color: #fff;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -158,6 +159,7 @@ display: flex;
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -182,8 +184,22 @@ h4 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.features{
+  padding: 120px 0 120px;
+}
+
+.features-list{
+  display: flex;
+  gap: 24px;
+}
 .features-heading {
   line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+
+.features-items{
+  width: calc((100% - 72px) / 4);
 }
 .our-team {
   background-color: #f4f4fd;
