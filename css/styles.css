@@ -54,15 +54,15 @@ p {
   display: block;
   padding: 24px 0;
 }
-
-.contacts-list {
-  display: flex;
-  align-items: center;
+.contacts-list{
+   display: flex;
+  text-align: right;
   gap: 40px;
 }
-.contacts-item {
+
+
+.container page-header{
   display: flex;
-  gap: 40px;
 }
 
 .contacts-link {
