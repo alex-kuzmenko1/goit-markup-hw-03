@@ -59,6 +59,11 @@ p {
   text-align: right;
   gap: 40px;
 }
+.contacts-item{
+     display: flex;
+  text-align: right;
+  gap: 40px;
+}
 
 
 .container page-header{
