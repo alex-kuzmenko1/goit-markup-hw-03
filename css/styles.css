@@ -195,7 +195,7 @@ h4 {
 .features{
   padding: 120px 0 120px;
 }
-.visually-hidden:not(:focus):not(:active) {
+.features-heading .visually-hidden:not(:focus):not(:active) {
     position: absolute;
     width: 1px;
     height: 1px;
