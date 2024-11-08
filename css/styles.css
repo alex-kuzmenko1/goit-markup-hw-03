@@ -80,9 +80,7 @@ p {
   color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
+
 
 .nav-list {
   display: flex;
@@ -306,6 +304,8 @@ gap: 24px;
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-p {
